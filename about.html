@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Create title for browser tabs & Favorites -->
+		<title>ALEX Digital</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		
+
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+		<link rel="manifest" href="assets/icons/site.webmanifest">
+		<link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#0f1131">
+		<link rel="shortcut icon" href="assets/icons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#0f1131">
+		<meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+		<script src="js/bootstrap.bundle.min.js"></script>  
+		
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/logo.svg" alt="" height="24" />
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link " aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="live.html">Live</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="shows.html">Sendungen</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Der Sender
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item active" href="about.html">Über uns</a></li>
+							<li><a class="dropdown-item " href="#">Mitmachen</a></li>
+							<li><a class="dropdown-item " href="#">Jobs</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<button class="btn" type="submit">
+						<img src="assets/search.svg" />
+					</button>
+				</form>
+				<button class="btn btn-user" data-bs-toggle="modal" data-bs-target="#user-modal">
+					<img style="height: 40px" src="assets/user.png" />
+				</button>
+			</div>
+		</div>
+	</nav>
+
+
+		
+		<div class="modal fade" id="user-modal" tabindex="-1" aria-labelledby="user-modal-label" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content bg-dark text-light">
+				<div class="modal-header">
+					<img style="height:40px; margin-right:1em" src="assets/user.png" />
+					<h5 class="modal-title" id="user-modal-label">Martin Bucher</h5>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><a class="btn btn-outline-light btn-dark" role="button" href="">Deine Merkliste</a></p>
+					<h4>Deine Daten</h4>
+					<form class="form-outline bg-dark">
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Benutzername</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="m.bucher" disabled>
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Vorname</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="Martin">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Name</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="Bucher">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">E-Mail</label>
+							<input type="email" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="martin.bucher@alex-berlin.de">
+						</div>
+						<button type="submit" class="btn btn-primary">Speichern</button>
+					</form>
+					<h4 class="mt-3">Passwort ändern</h4>
+					<form class="form-outline bg-dark">
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Altes Passwort</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Neues Passwort</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Passwort bestätigen</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<button type="submit" class="btn btn-primary">Ändern</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		
+
+
+		<div class="container text-light mt-5">
+			
+	<h1 class="display-4">Über uns</h1>
+	<p class="lead">ALEX ist die mediale Kreativplattform für Berlin, die ungewöhnliches Programm für eine außergewöhnliche Stadt anbietet.</p>
+	<img src="assets/about-us.webp" class="img-fluid">
+
+	<h2 class="pt-3">Wer ist ALEX?</h2>
+	<p>Als nicht-kommerzieller Sender bildet ALEX Inhalte von gesellschaftlicher Relevanz jenseits des Mainstreams ab und bietet damit Raum für die innovative Energie des Standorts. ALEX ermöglicht es Menschen, Medien zu erleben und sie selbst zu gestalten und bietet somit nicht nur die Chance, eigene Inhalte im TV, Radio und Internet zu veröffentlichen, sondern ist ein Begegnungsort für Ideen, Kreativität und Austausch.</p>
+	<p>Darüber hinaus begleitet ALEX als Ausbildungs- und Ereignissender Veranstaltungen rund um Politik, Gesellschaft und Kultur Berlins und ermöglicht engagiertem Mediennachwuchs einen qualifizierten Einstieg in die Medienbranche.</p>
+	<p>Was entsteht, ist ein innovatives Programm, das die Hauptstadt in ihrer gesamten Vielfalt widerspiegelt: urban, vielschichtig und lebendig.</p>
+	<p>ALEX ist eine Einrichtung der Medienanstalt Berlin-Brandenburg (mabb) und wird aus Rundfunkgebühren finanziert. ALEX erreicht analog und digital rund 1,64 Millionen TV-Haushalte, hat im Rundfunkbereich eine technische Reichweite von rund drei Millionen UKW-Hörern und verbreitet seine Inhalte über alle gängigen Social Media-Kanäle.</p>
+
+	<h2>Die Geschichte von ALEX</h2>
+
+	<p>Im Zuge der bundesweiten Einführung des Kabelfernsehens nimmt am <em>28. August 1985</em> der Offene Kanal Berlin den Sendebetrieb auf. Die Finanzierung erfolgt von Beginn an aus Rundfunkgebühren.</p>
+
+	<p><em>1997</em> wird die Sendeschiene „Jugend und Schule“ eingerichtet, die den Grundstein zur Förderung der Medienkompetenz legen soll.</p>
+
+	<p>Im selben Jahr führt der Offene Kanal zum ersten Mal Sendeschienen ein. Damit bekommen Sendungen feste Sendezeiten, was sowohl den Produzenten als auch den Zuschauern das Zurechtfinden im Programm erleichtert.</p>
+
+	<p><em>2003</em> wird das Programm um das Ereignisfernsehen erweitert, in dessen Rahmen der OKB Berliner Veranstaltungen in voller Länge aufzeichnet und anschließend ausstrahlt.</p>
+
+	<p><em>2007</em> wird – beruhend auf den Beschlüssen des Medienrats der mabb und mit Unterstützung des Abgeordnetenhauses Berlin – von der Medienanstalt Berlin-Brandenburg die Reform des Offenen Kanal Berlin eingeleitet. Der OKB soll zu einer modernen, kreativen und regional relevanten Medienplattplattform werden.</p>
+
+	<p>Der OKB wird unter dem Namen ALEX im Mai 2009 relauncht. Es wird eine Programmstruktur eingeführt, die einzelne Sendungen thematisch ordnet. Zusätzlich werden im Rahmen des Qualitäts- und Servicemanagements Sendeplätze nach Evaluierung vergeben. Die Produzierenden erhalten nicht nur ein Feedback zu ihren Inhalten, sondern dank des ALEX Werkstudio auch die Möglichkeit, ihre Beiträge technisch und inhaltlich weiterzuentwickeln.</p>
+
+	<p><em>Ab 2008</em> werden die Sende- und die Produktionstechnik digitalisiert. Am Ende dieser Entwicklung ist ALEX Full HD-fähig.</p>
+
+	<p><em>2017</em> zieht ALEX Berlin in die eigens auf die Bedürfnisse des Senders abgestimmte ALEX Halle in der Rudolfstraße. Mit den neuen Räumlichkeiten ist nun genug Platz, die Diskurse aus der Hauptstadt ins Studio zu bringen und somit Interessierten bei diversen öffentlichen Live-Übertragungen die Möglichkeit zu geben, diese direkt vor Ort in der ALEX-Halle zu verfolgen.</p>
+
+	<p><em>Heute</em> ist ALEX Berlin im TV im digitalen Kabelnetz, per TV Livestream, on demand in der TV Mediathek und auf YouTube und über seine Social Media-Profile erreichbar. ALEX RADIO ist via Antenne auf der 91,0 MHz hörbar, außerdem ebenfalls im Radio Livestream, über die Radio Mediathek und auf Mixcloud.</p>
+
+	<p>ALEX Berlin ist gefragter Medienpartner im Berliner Stadtleben geworden und begleitet mit dem Ereignis- und Ausbildungsfernsehen die Plenarsitzungen des Abgeordnetenhaus live, berichtet von großen Events und kleinen Szeneveranstaltungen.</p>
+
+		</div>
+
+		<footer class="text-center text-lg-start text-muted">
+			<section class="border-top mt-5">
+				<div class="container text-center text-md-start">
+					<div class="row mt-4">
+						<div class="col-md-4 col-lg-4 col-xl-3 mx-auto">
+							<h6 class="fw-bold mb-4">ALEX Berlin</h6>
+							<p>Alex Berlin ist eine Einrichtung der Medienanstalt Berlin-Brandenburg (mabb) und enger Partner vom MIZ Babelsberg.</p>
+							<p>Diese Seite ist ein interner Prototyp. Bitte verwenden Sie unsere <a class="link-secondary" href="https://alex-berlin.de">offizielle Website</a>.</p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+							<h6 class="fw-bold mb-4">Folgen</h6>
+							<p><a class="link-secondary" href="https://www.instagram.com/alex_berlin_de/">Instagram</a></p>
+							<p><a class="link-secondary" href="https://www.facebook.com/ALEX.berlin.de">Facebook</a></p>
+							<p><a class="link-secondary" href="https://twitter.com/ALEX_berlin_de">Twitter</a></p>
+							<p><a class="link-secondary" href="https://www.youtube.com/c/ALEXBerlinde">YouTube</a></p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-xl-k mx-auto mb-md-0 mb-4">
+							<h6 class="fw-bold mb-4">Kontakt</h6>
+							<p>ALEX Offener Kanal Berlin<br>Rudolfstraße 1-8<br>(Eingang Ecke Ehrenbergstraße)<br>10245 Berlin</p>
+							<p>Tel: +49 30 464 005 0<br>Fax: +49 30 464 005 98 22<br>info@alex-berlin.de</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>

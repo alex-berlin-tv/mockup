@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Create title for browser tabs & Favorites -->
+		<title>ALEX Digital</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		
+
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+		<link rel="manifest" href="assets/icons/site.webmanifest">
+		<link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#0f1131">
+		<link rel="shortcut icon" href="assets/icons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#0f1131">
+		<meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+		<script src="js/bootstrap.bundle.min.js"></script>  
+		
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/logo.svg" alt="" height="24" />
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link " aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="live.html">Live</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="shows.html">Sendungen</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Der Sender
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item " href="about.html">Über uns</a></li>
+							<li><a class="dropdown-item " href="#">Mitmachen</a></li>
+							<li><a class="dropdown-item " href="#">Jobs</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<button class="btn" type="submit">
+						<img src="assets/search.svg" />
+					</button>
+				</form>
+				<button class="btn btn-user" data-bs-toggle="modal" data-bs-target="#user-modal">
+					<img style="height: 40px" src="assets/user.png" />
+				</button>
+			</div>
+		</div>
+	</nav>
+
+
+		
+		<div class="modal fade" id="user-modal" tabindex="-1" aria-labelledby="user-modal-label" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content bg-dark text-light">
+				<div class="modal-header">
+					<img style="height:40px; margin-right:1em" src="assets/user.png" />
+					<h5 class="modal-title" id="user-modal-label">Martin Bucher</h5>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><a class="btn btn-outline-light btn-dark" role="button" href="">Deine Merkliste</a></p>
+					<h4>Deine Daten</h4>
+					<form class="form-outline bg-dark">
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Benutzername</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="m.bucher" disabled>
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Vorname</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="Martin">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Name</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="Bucher">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">E-Mail</label>
+							<input type="email" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="martin.bucher@alex-berlin.de">
+						</div>
+						<button type="submit" class="btn btn-primary">Speichern</button>
+					</form>
+					<h4 class="mt-3">Passwort ändern</h4>
+					<form class="form-outline bg-dark">
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Altes Passwort</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Neues Passwort</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Passwort bestätigen</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<button type="submit" class="btn btn-primary">Ändern</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		
+
+
+		<div class="container text-light mt-5">
+			
+	<h1 class="display-4">Soli-Demo für die Ukraine</h1>
+	<p class="lead">Berlin demonstriert gegen Krieg in Europa. Unser Kollege Luis Schneiderhan war bei einer Soli-Demo für die Ukraine. Ein Kommentar.</p>
+	<p><em>25.02.2022 16:25 Uhr</em></p>
+	<img src="assets/blog-03.webp" class="img-fluid">
+
+	<p class="mt-3">Es ist der 24. Februar 2022. Es ist zwei Uhr, ich komme gerade nach Hause, weil ich mit meinen Kommiliton:innen die letzte überstandene Klausur gefeiert habe. Das ist drei Stunden vor der Invasion.</p>
+	<p>Ich wache um zehn Uhr mit Kopfweh auf und starre schockiert in mein Handy. Es ist Krieg. Zu der Zeit läuft die Invasion bereits seit fünf Stunden. Ich bekomme Angst. Ich versuche mir vorzustellen, wie es für die Menschen vor Ort sein muss, zu Sirenen und Bomben aufzuwachen, oder wie es für Menschen hier in Deutschland sein muss, die um die Leben ihrer Angehörigen bangen müssen. Ich nehme eine Ibu und mache mich auf den Weg zur Soli-Demo für die Ukraine, die vor dem Bundeskanzleramt stattfindet. Ich habe von einer ukrainischen Freundin erfahren, dass dort seit 11 Uhr demonstriert wird. Die Aktivist:innengruppe nennt sich „Vitsche Berlin“ und ist auch auf <a href="https://www.instagram.com/vitsche_berlin/">Instagram</a> zu finden, wo ihnen bereits mehr als 3400 Personen folgen. Wer ist diese Gruppe? Frage ich mich auf dem Weg in der S-Bahn – das möchte ich später herausfinden.</p>
+
+	<p>Überall Menschen mit der Ukrainischen Fahne zu sehen.</p>
+
+	<h2>„Stop Putin Stop War“</h2>
+
+	<p>Als ich von der Richtung des Brandenburger Tors zum Bundeskanzleramt laufe, sehe ich bereits einige Menschen mit umgebundenen blau-gelben Fahnen. An der Straße stehen einige Menschen mit Schildern: „Stand with Ukraine“, „NATO help“, „Hands of Ukraine“ oder auch „Choke Putin“ ist zu lesen. Dazu rufen sie immer wieder: „Stop Putin, stop war.“</p>
+
+	<p>Direkt vor dem Kanzleramt ist ein kleines blaues Zelt mit zwei Lautsprecherboxen aufgestellt.  Protestierende stehen darum versammelt und auch hier werden Forderungen gerufen: „Sanctions now!“ (Sanktionen jetzt!) oder „Waffen an die Ukraine.“</p>
+
+	<p>Xenia kommt aus Boryspil, südöstlich von der Hauptstadt Kiew.</p>
+
+	<h2>Wer demonstriert hier?</h2>
+
+	<p>Ich spreche mit Xenia. Sie kommt aus Boryspil, eine Stadt mit ca. 65.000 Einwohnerinnen südostlich von der Hauptstadt Kiew. Auch hier gab es mehrere Bombardierungen. „Meiner Familie geht es zum Glück gut, aber die Wohnung meiner Mutter ist 20 Minuten vom Einschlagsort entfernt, wo heute bombardiert wurde.“ Ich frage sie, was sie gerade fühlt:</p>
+
+	<figure>
+		<blockquote class="blockquote">
+			<p>Ich fühle vor allem Wut, dass das alles passiert. Ich frage mich, wie ich arbeiten und studieren soll, ich kann mich derzeit auf nichts anderes konzentrieren.</p>
+		</blockquote>
+		<figcaption class="blockquote-footer">
+			Maxim
+		</figcaption>
+	</figure>
+
+	<p>Ich treffe auch Hana, sie ist gebürtige Russin und sagt: „Ich kann nicht Zuhause bleiben, wenn mein Land ein Kriegsverbrecher ist.“ Auch in Russland selbst haben viele Bürger:innen gegen den Krieg demonstriert, in ungefähr 50 verschiedenen Städten. Und das trotz eines Verbots: mindestens 1700 Menschen wurden dabei festgenommen. Das zeigt: Der Krieg ist nicht Russlands Krieg, sondern allein der von Putin. Das denke ich, wissen auch die Demonstrierenden. Sie rufen: „Putin ist the killer“ (Putin ist der Mörder). Ab und zu werden auch Nachrichten verlesen, hauptsächlich schlechte, wie die Eroberung der Russen von Tschernobyl, aber die Nachrichten über die Proteste in Russland werden hier mit Applaus gefeiert.</p>
+
+	<h2>Wer hat die Soli-Demo für die Ukraine organisiert?</h2>
+
+	<p>Ich laufe näher zum kleinen blauen Zelt und treffe auf Maxim und Hanna. Sie sind zwei der insgesamt 15 Aktivist:innen, die die Soli-Demo für die Ukraine organisiert haben. Die meisten sind Studierende aus der Ukraine oder haben ukrainische Wurzeln, erklären sie. Zumindest alle haben Familie und Freunde in der Ukraine, die gerade extrem belastet sind. „Wir sind seit Ende Januar, seitdem die Lage in der Ukraine immer weiter eskaliert ist, auf die Straße gegangen.“, sagt Maxim. Zu Beginn seien sie nur ein loser Zusammenschluss von ukrainischen Studierenden gewesen, aber nach und nach wurde die Bewegung immer größer. Eigentlich, so erzählt mir Maxim, war auch geplant, ukrainische Kulturveranstaltungen zu organisieren. „Gerade ist der Aktivismus aber wichtiger.“, meint er. Maxim erzählt mir von den Forderungen der Demonstrierenden: „Wir fordern militärische Maßnahmen, noch härtere Sanktionen und auch Flüchtlingsarbeit.“ Im ganzen Land seien gerade Tausende von Menschen auf der Flucht.</p>
+
+	<p>Auch Maxim frage ich, was er gerade fühlt:</p>
+	<figure>
+		<blockquote class="blockquote">
+			<p>Es ist eine Abwechslung von Trauer und Aggression. Die Letzte Nacht war die fürchterlichste Nacht in meinem ganzen Leben.</p>
+		</blockquote>
+		<figcaption class="blockquote-footer">
+			Maxim, Mitorganisator der Demo
+		</figcaption>
+	</figure>
+
+	<p>Aber, fügt er hinzu, der Aktivismus würde ihm helfen: „Die meisten hier anwesenden Menschen haben das gleiche Gefühl wie ich.“ Auch ich merke, wie hier eine ganz besondere Art von Zusammenhalt herrscht.</p>
+
+		</div>
+
+		<footer class="text-center text-lg-start text-muted">
+			<section class="border-top mt-5">
+				<div class="container text-center text-md-start">
+					<div class="row mt-4">
+						<div class="col-md-4 col-lg-4 col-xl-3 mx-auto">
+							<h6 class="fw-bold mb-4">ALEX Berlin</h6>
+							<p>Alex Berlin ist eine Einrichtung der Medienanstalt Berlin-Brandenburg (mabb) und enger Partner vom MIZ Babelsberg.</p>
+							<p>Diese Seite ist ein interner Prototyp. Bitte verwenden Sie unsere <a class="link-secondary" href="https://alex-berlin.de">offizielle Website</a>.</p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+							<h6 class="fw-bold mb-4">Folgen</h6>
+							<p><a class="link-secondary" href="https://www.instagram.com/alex_berlin_de/">Instagram</a></p>
+							<p><a class="link-secondary" href="https://www.facebook.com/ALEX.berlin.de">Facebook</a></p>
+							<p><a class="link-secondary" href="https://twitter.com/ALEX_berlin_de">Twitter</a></p>
+							<p><a class="link-secondary" href="https://www.youtube.com/c/ALEXBerlinde">YouTube</a></p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-xl-k mx-auto mb-md-0 mb-4">
+							<h6 class="fw-bold mb-4">Kontakt</h6>
+							<p>ALEX Offener Kanal Berlin<br>Rudolfstraße 1-8<br>(Eingang Ecke Ehrenbergstraße)<br>10245 Berlin</p>
+							<p>Tel: +49 30 464 005 0<br>Fax: +49 30 464 005 98 22<br>info@alex-berlin.de</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>

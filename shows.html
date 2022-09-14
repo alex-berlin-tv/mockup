@@ -1,0 +1,267 @@
+
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Create title for browser tabs & Favorites -->
+		<title>ALEX Digital</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		
+
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+		<link rel="manifest" href="assets/icons/site.webmanifest">
+		<link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#0f1131">
+		<link rel="shortcut icon" href="assets/icons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#0f1131">
+		<meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+		<script src="js/bootstrap.bundle.min.js"></script>  
+		
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/logo.svg" alt="" height="24" />
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link " aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="live.html">Live</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="shows.html">Sendungen</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Der Sender
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item " href="about.html">Über uns</a></li>
+							<li><a class="dropdown-item " href="#">Mitmachen</a></li>
+							<li><a class="dropdown-item " href="#">Jobs</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<button class="btn" type="submit">
+						<img src="assets/search.svg" />
+					</button>
+				</form>
+				<button class="btn btn-user" data-bs-toggle="modal" data-bs-target="#user-modal">
+					<img style="height: 40px" src="assets/user.png" />
+				</button>
+			</div>
+		</div>
+	</nav>
+
+
+		
+		<div class="modal fade" id="user-modal" tabindex="-1" aria-labelledby="user-modal-label" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content bg-dark text-light">
+				<div class="modal-header">
+					<img style="height:40px; margin-right:1em" src="assets/user.png" />
+					<h5 class="modal-title" id="user-modal-label">Martin Bucher</h5>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p><a class="btn btn-outline-light btn-dark" role="button" href="">Deine Merkliste</a></p>
+					<h4>Deine Daten</h4>
+					<form class="form-outline bg-dark">
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Benutzername</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="m.bucher" disabled>
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Vorname</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="Martin">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Name</label>
+							<input type="text" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="Bucher">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">E-Mail</label>
+							<input type="email" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp" value="martin.bucher@alex-berlin.de">
+						</div>
+						<button type="submit" class="btn btn-primary">Speichern</button>
+					</form>
+					<h4 class="mt-3">Passwort ändern</h4>
+					<form class="form-outline bg-dark">
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Altes Passwort</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Neues Passwort</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Passwort bestätigen</label>
+							<input type="password" class="form-control bg-dark text-light" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<button type="submit" class="btn btn-primary">Ändern</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		
+
+
+		<div class="container text-light mt-5">
+			
+	<div class="card mb-3 bg-dark">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="assets/show-01.webp" class="img-fluid img-cover rounded">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">Abgeordnetenhaus Berlin</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a href="tv-show.html" class="card-link stretched-link">Mehr...</a>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card mb-3 bg-dark">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="assets/show-02.webp" class="img-fluid img-cover rounded">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">ALEX Talk</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a href="tv-show.html" class="card-link stretched-link">Mehr...</a>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card mb-3 bg-dark">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="assets/show-03.webp" class="img-fluid img-cover rounded">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">All You Can Eat</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a href="radio-show.html" class="card-link stretched-link">Mehr...</a>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card mb-3 bg-dark">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="assets/show-05.webp" class="img-fluid img-cover rounded">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">couchFM</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a href="radio-show.html" class="card-link stretched-link">Mehr...</a>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card mb-3 bg-dark">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="assets/show-04.webp" class="img-fluid img-cover rounded">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">digga radio</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a href="" class="card-link stretched-link">Mehr...</a>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card mb-3 bg-dark">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="assets/show-06.webp" class="img-fluid img-cover rounded">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">Trotha trifft...</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a href="tv-show.html" class="card-link stretched-link">Mehr...</a>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card mb-3 bg-dark">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="assets/show-07.webp" class="img-fluid img-cover rounded">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">DIGGA Magazin</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a href="tv-show.html" class="card-link stretched-link">Mehr...</a>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		</div>
+
+		<footer class="text-center text-lg-start text-muted">
+			<section class="border-top mt-5">
+				<div class="container text-center text-md-start">
+					<div class="row mt-4">
+						<div class="col-md-4 col-lg-4 col-xl-3 mx-auto">
+							<h6 class="fw-bold mb-4">ALEX Berlin</h6>
+							<p>Alex Berlin ist eine Einrichtung der Medienanstalt Berlin-Brandenburg (mabb) und enger Partner vom MIZ Babelsberg.</p>
+							<p>Diese Seite ist ein interner Prototyp. Bitte verwenden Sie unsere <a class="link-secondary" href="https://alex-berlin.de">offizielle Website</a>.</p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+							<h6 class="fw-bold mb-4">Folgen</h6>
+							<p><a class="link-secondary" href="https://www.instagram.com/alex_berlin_de/">Instagram</a></p>
+							<p><a class="link-secondary" href="https://www.facebook.com/ALEX.berlin.de">Facebook</a></p>
+							<p><a class="link-secondary" href="https://twitter.com/ALEX_berlin_de">Twitter</a></p>
+							<p><a class="link-secondary" href="https://www.youtube.com/c/ALEXBerlinde">YouTube</a></p>
+						</div>
+						<div class="col-md-4 col-lg-4 col-xl-k mx-auto mb-md-0 mb-4">
+							<h6 class="fw-bold mb-4">Kontakt</h6>
+							<p>ALEX Offener Kanal Berlin<br>Rudolfstraße 1-8<br>(Eingang Ecke Ehrenbergstraße)<br>10245 Berlin</p>
+							<p>Tel: +49 30 464 005 0<br>Fax: +49 30 464 005 98 22<br>info@alex-berlin.de</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>
